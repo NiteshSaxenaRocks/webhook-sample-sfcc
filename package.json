@@ -1,0 +1,19 @@
+{
+  "name": "high-street-nodejs",
+  "version": "1.0.0",
+  "description": "High-Street NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shobhit-Dimri/apiai-weather-webhook-sample.git"
+  },
+  "author": "Shobhit Dimri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shobhit-Dimri/apiai-weather-webhook-sample/issues"
+  },
+  "homepage": "https://github.com/Shobhit-Dimri/apiai-weather-webhook-sample#readme"
+}
