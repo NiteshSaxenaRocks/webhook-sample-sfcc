@@ -63,7 +63,7 @@ def relayRequest(req):
     userIdHybris = ""
     contextList = req.get("result").get("contexts")
     for context in contextList:
-        print("Context :"+context.get("name"))	
+        print("Context Shobhit :"+context.get("name"))	
         if context.get("name") == "channel" :
             print("matched...")
             channel = context.get("parameters").get("name")
