@@ -72,7 +72,7 @@ def relayRequest(req):
             print(userIdHybris)
             print("---------------------------------------")
 
-
+    print("Loop over...")
     if req.get("result").get("action") == "getUserDetails" :
         displayName = req.get("originalRequest").get("data").get("user").get("profile").get("displayName")
         givenName = req.get("originalRequest").get("data").get("user").get("profile").get("givenName")
