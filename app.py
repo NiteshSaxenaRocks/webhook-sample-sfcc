@@ -58,7 +58,7 @@ def webhook():
     return res
 
 def relayRequest(req):
-    print("############### ACTION - "+req.get("result").get("action"))
+    print("############### AACTION - "+req.get("result").get("action"))
     channel = "device"
     userIdHybris = ""
     contextList = req.get("result").get("contexts")
