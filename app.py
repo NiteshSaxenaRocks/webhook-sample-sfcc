@@ -58,7 +58,7 @@ def webhook():
     return res
 
 def relayRequest(req):
-    print("############### ACTION - "+req.get("result").get("action"))
+    print("############### AACTION - "+req.get("result").get("action"))
     channel = "device"
     userIdHybris = ""
     contextList = req.get("result").get("contexts")
@@ -106,6 +106,8 @@ def relayRequest(req):
     jsondataasbytes = jsondata.encode('utf-8')   # needs to be bytes
     reqObj.add_header('Content-Length', len(jsondataasbytes))
     result = urlopen(reqObj,jsondataasbytes).read()
+    print("****************** Shobhit ******************")
+    print(result)
     #data = json.loads(result)
     #res = makeWebhookResult(data,req)
     return result
