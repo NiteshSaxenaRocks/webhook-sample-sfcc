@@ -96,7 +96,8 @@ def relayRequest(req):
         }
     elif req.get("result").get("action") == "request_name_permission" or req.get("result").get("action") == "read_mind" or req.get("result").get("action") == "actions_intent_PERMISSION" :
         print("Going to Firebase to fetch device registered firstname and lastname.")
-        baseurl = "https://us-central1-highstreet-bot-v4-1.cloudfunctions.net/getNameFunction"
+        #baseurl = "https://us-central1-highstreet-bot-v4-1.cloudfunctions.net/getNameFunction"
+        baseurl = "https://us-central1-highstreet-demo01.cloudfunctions.net/getNameFunction"
     else:
         baseurl = "http://34.203.152.187/highstreetcommercewebservices/v2/highstreet/webhook/"
     
